@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../bk.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} 
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.1s ease; 
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    float: left;
+   margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title h1{
+    
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    backface-visibility: 0%;
+    color: greenyellow;
+}
+
+.title p{
+    position: absolute;
+    top: 43%;
+    left: 28%;
+    color: white;
+    font-size: 20px;
+}
+
+.title p a{
+ text-decoration: none;
+    color: white;
+}
+
+.title p a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.title p1 img{
+   position: absolute;
+   top: 43%;
+    width: 18px;
+    height: 18px;
+    left: 26%;
+        
+}
+
+
+
+
+
+
+
+
