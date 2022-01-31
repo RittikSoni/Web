@@ -1,0 +1,21 @@
+<?php
+$csv='E:\\SOFTWARES\\Xampp\\htdocs\\webteam_alumini\\alumini_info.csv';
+$fh=fopen($csv,'r');
+
+while(list($name,$company,$email,$image_url) = fgetcsv($fh,1000,',')){
+    printf("<p>%s , %s , %s</p>,<img src=' %s ' >",$name,$company,$email,$image_url);   
+}
+
+fclose($fh);
+?>
+
+
+ <h4>
+                        <?php  
+                        while(list($name) = fgetcsv($fh,1000,',')){
+    printf("<p>%s</p>",$name);   
+}
+
+fclose($fh);
+                        ?>
+                    </h4>
