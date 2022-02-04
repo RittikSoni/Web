@@ -16,11 +16,11 @@ $csv='E:\\SOFTWARES\\Xampp\\htdocs\\webteam_alumini\\alumini_info.csv';
 $fh=fopen($csv,'r'); 
          $i=0;
          $flag=0;
-while(list($image_url,$company,$email,$name) = fgetcsv($fh,1000,',') ){
+ while(list($image_url,$company,$email,$name) = fgetcsv($fh,1000,',') ){
 
 
-echo '
-<div class="container">
+echo '<div class="container">
+
 <div class="card">
             <div class="content">
                 <div class="imgBx">
